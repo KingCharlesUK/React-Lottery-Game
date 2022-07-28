@@ -76,7 +76,6 @@ class App extends Component<any, any> {
             rewardedPoints = reward.rewardedPoints;
           }
         }
-        console.log(playerBalls, randomDrawnBalls, matches, rewardedPoints);
         message = 'You won the lottery! You received ' + rewardedPoints + ' points.';
       } else {
         message = 'You lost the lottery :( Maybe try again?';
